@@ -1,37 +1,64 @@
+/* RESET RULES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-    --lightblue: #F6F9FC;
-    --red: #d64041;
-  }
-   
-  a,
-  a:hover {
-    color: inherit;
-  }
-   
-  a:hover {
-    text-decoration: none;
-  }
-   
-  .bg-lightblue {
-    background: var(--lightblue);
-  }
-   
-  .bg-red {
-    background: var(--red);
-  }
-   
-  .text-red {
-    color: var(--red);
-  }
-   
-  .container-fluid-max {
-    max-width: 1440px;
-  }
-   
-  .cover {
-    background: no-repeat center/cover;
-  }
-   
-  .p-15 {
-    padding: 15px;
-  }
+  --lightblue: #f6f9fc;
+  --red: #d64041;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bg-lightblue {
+  background: var(--lightblue);
+}
+
+.bg-red {
+  background: var(--red);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.container-fluid-max {
+  max-width: 1440px;
+}
+
+.cover {
+  background: no-repeat center/cover;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+/* SCROLL ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.scroll .page-header {
+  background: var(--red);
+}
+
+.scroll .hero {
+  transform: scale(0.98);
+}
+
+/* HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-header {
+  transition: background 0.5s ease-in-out;
+}
+
+.page-header .navbar {
+  padding: 1rem 0;
+}
+
+.page-header .navbar-toggler {
+  /* the variable is inherited from BS4 built-in variables */
+  border-color: var(--white); 
+}
