@@ -109,3 +109,9 @@ a:hover {
   transform: scale(1.25);
   filter: none;
 }
+
+/* PAGE FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer .footer-links {
+  text-align: right;
+}
