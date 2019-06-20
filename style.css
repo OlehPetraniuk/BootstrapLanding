@@ -115,3 +115,18 @@ a:hover {
 .page-footer .footer-links {
   text-align: right;
 }
+/* MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* MEDIUM SCREENS */
+@media screen and (max-width: 991px) {
+  .page-header {
+    background: var(--red);
+  }
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
+  }
+}
